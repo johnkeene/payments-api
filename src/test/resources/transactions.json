@@ -1,0 +1,22 @@
+[
+  {
+    "id": "test-tx-1",
+    "date": "2023-01-29",
+    "customer": {
+      "id": "test-c-1",
+      "name": "John Smith"
+    },
+    "products": [
+      {
+        "id": "test-p-1",
+        "name": "Drill",
+        "price": 123
+      },
+      {
+        "id": "test-p-2",
+        "name": "Hammer",
+        "price": 70
+      }
+    ]
+  }
+]

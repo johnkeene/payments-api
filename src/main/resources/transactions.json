@@ -1,0 +1,172 @@
+[
+  {
+    "id": "tx-1",
+    "date": "2023-01-29",
+    "customer": {
+      "id": "c-1",
+      "name": "John Smith"
+    },
+    "products": [
+      {
+        "id": "p-1",
+        "name": "Drill",
+        "price": 123
+      },
+      {
+        "id": "p-2",
+        "name": "Hammer",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "id": "tx-2",
+    "date": "2022-12-29",
+    "customer": {
+      "id": "c-1",
+      "name": "John Smith"
+    },
+    "products": [
+      {
+        "id": "p-4",
+        "name": "Screw driver",
+        "price": 12
+      },
+      {
+        "id": "p-5",
+        "name": "bucket",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "id": "tx-3",
+    "date": "2022-12-15",
+    "customer": {
+      "id": "c-1",
+      "name": "John Smith"
+    },
+    "products": [
+      {
+        "id": "p-7",
+        "name": "Screw driver 2",
+        "price": 1099
+      },
+      {
+        "id": "p-8",
+        "name": "bucket 2",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "id": "tx-4",
+    "date": "2023-01-29",
+    "customer": {
+      "id": "c-2",
+      "name": "Jane Doe"
+    },
+    "products": [
+      {
+        "id": "p-1",
+        "name": "Drill",
+        "price": 123
+      },
+      {
+        "id": "p-2",
+        "name": "Hammer",
+        "price": 70
+      },
+      {
+        "id": "p-4",
+        "name": "Screw driver",
+        "price": 12
+      },
+      {
+        "id": "p-5",
+        "name": "bucket",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "id": "tx-5",
+    "date": "2022-12-15",
+    "customer": {
+      "id": "c-1",
+      "name": "John Smith"
+    },
+    "products": [
+      {
+        "id": "p-10",
+        "name": "Truck Rental",
+        "price": 400
+      },
+      {
+        "id": "p-11",
+        "name": "Hammer Drill",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "id": "tx-6",
+    "date": "2022-11-15",
+    "customer": {
+      "id": "c-1",
+      "name": "John Smith"
+    },
+    "products": [
+      {
+        "id": "p-12",
+        "name": "Rake",
+        "price": 11
+      },
+      {
+        "id": "p-13",
+        "name": "Shovel",
+        "price": 70
+      }
+    ]
+  },
+  {
+    "id": "tx-7",
+    "date": "2022-04-15",
+    "customer": {
+      "id": "c-1",
+      "name": "John Smith"
+    },
+    "products": [
+      {
+        "id": "p-14",
+        "name": "Red Mulch",
+        "price": 101
+      },
+      {
+        "id": "p-15",
+        "name": "Trees",
+        "price": 1191
+      }
+    ]
+  },
+  {
+    "id": "tx-8",
+    "date": "2022-11-15",
+    "customer": {
+      "id": "c-2",
+      "name": "Jane Doe"
+    },
+    "products": [
+      {
+        "id": "p-16",
+        "name": "Black Mulch",
+        "price": 101
+      },
+      {
+        "id": "p-17",
+        "name": "Bushes",
+        "price": 201
+      }
+    ]
+  }
+]
