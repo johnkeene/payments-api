@@ -16,12 +16,11 @@ import java.util.List;
 @Repository
 public class ApiRepository {
     private static final Logger LOG = LoggerFactory.getLogger(ApiRepository.class);
-    List<Transaction> transactions;
 
     List<Transaction> getTransactions() throws IOException {
         String jsonRecords = IOUtils.toString(new ClassPathResource("transactions.json").getInputStream(), Charset.defaultCharset());
         ObjectMapper mapper = new ObjectMapper();
-        transactions = mapper.readValue(jsonRecords, new TypeReference<List<Transaction>>(){});
+        List<Transaction> transactions = mapper.readValue(jsonRecords, new TypeReference<List<Transaction>>(){});
         return transactions;
     }
 }
